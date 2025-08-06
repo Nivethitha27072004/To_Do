@@ -1,0 +1,77 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(133, 132, 132);
+
+}
+.container{
+    max-width: 600px;
+    margin-top:50px;
+    margin-left: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgb(0,0,0,0.5) ;
+
+}
+.container:hover{
+    box-shadow:0 0 10px rgb(0,0,0,0.9) ;
+
+}
+h1{
+    text-align: center;
+    color: black;
+}
+input[type="text"]{
+    padding:8px;
+    font-size:16px;
+    border:1px solid black;
+    border-radius: 5px;
+    width:80%;
+    margin-right:10px;
+    padding:10px
+}
+button{
+    padding:8px 20px;
+    background-color:rgb(133, 132, 132) ;
+    color:black;
+    border:1px solid rgb(133, 132, 132) ;
+    height:40px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+button:hover{
+   
+    background-color:rgb(7, 6, 6) ;
+    color:white;
+    
+}
+ul{
+    list-style: none;
+    padding :0;
+    margin-top:20px;
+
+}
+
+li{
+    padding:10px;
+    background-color:rgb(133, 132, 132);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.todo-buttons {
+    display: flex;
+    gap: 10px; /* spacing between Edit and Delete buttons */
+}
+
+li button {
+    height: 35px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
